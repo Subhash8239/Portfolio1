@@ -249,7 +249,7 @@ body {
 }
 
 .Project {
-    padding: 80px;
+    padding: 55px;
 }
 
 .Project h1 {
@@ -542,8 +542,6 @@ footer {
     .about-text {
         margin:auto;
         margin-top: 25px;
-        /* align-items: center; */
-        /* text-align: center; */
     }
     .about-img {
         display: none;
