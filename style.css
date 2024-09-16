@@ -343,22 +343,22 @@ body {
 
 .skill-per.html {
     animation-delay: 0.1s;
-    width: 80%;
+    width: 85%;
 }
 
 .skill-per.css {
     animation-delay: 0.1s;
-    width: 75%;
+    width: 70%;
 }
 
 .skill-per.javascript {
     animation-delay: 0.1s;
-    width: 40%;
+    width: 33%;
 }
 
 .skill-per.bootstrap {
     animation-delay: 0.1s;
-    width: 70%;
+    width: 55%;
 }
 
 @keyframes progress {
@@ -503,7 +503,6 @@ footer {
 }
 
 
-
 @media only screen and (max-width:850px) {
     .header {
         padding: 0;
@@ -538,20 +537,16 @@ footer {
     }
     .Home img {
         height: 400px;
+        margin-left: 8px;
     }
     .about-text {
-        margin-right: -20rem;
-        margin-left: 35px;
-        margin-right: 50px;
+        margin:auto;
+        margin-top: 25px;
+        /* align-items: center; */
+        /* text-align: center; */
     }
     .about-img {
         display: none;
-    }
-    .service-list {
-        text-align: center;
-    }
-    .services h1 {
-        font-size: 40px;
     }
     .contact {
         display: inline-block;
@@ -572,6 +567,17 @@ footer {
 
 
 @media only screen and (max-width:1100px) {
+    .Home img {
+        height: 350px;
+        margin-left: 5px;
+    }
+    .about-img img{
+        height: 400px;
+    }
+    .about-text {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
     .heading {
         font-size: 30px;
     }
