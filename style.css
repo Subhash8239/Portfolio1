@@ -211,7 +211,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    margin-top: 100px;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -225,7 +225,7 @@ body {
     box-shadow: 1px 2px 35px #01229080;
     padding: 40px;
     font-size: 20px;
-    margin-right: 20rem;
+    margin-right: 100px;
 }
 
 .about-text h2 {
@@ -514,7 +514,6 @@ footer {
     }
     .navbar {
         flex-direction: column;
-        height: 100vh;
         width: 100%;
         justify-content: center;
         background: #555557;
@@ -564,7 +563,7 @@ footer {
 
 
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width:1245px) {
     .Home img {
         height: 350px;
         margin-left: 5px;
@@ -574,7 +573,7 @@ footer {
     }
     .about-text {
         margin-left: 50px;
-        margin-right: 50px;
+        margin-right: 70px;
     }
     .heading {
         font-size: 30px;
