@@ -7,12 +7,10 @@
     scroll-behavior: smooth;
     font-family: 'poppines', sans-serif;
 }
-
 body {
     color: #ededed;
     background: #001b29;
 }
-
 .header {
     position: fixed;
     top: 0;
@@ -25,7 +23,6 @@ body {
     align-items: center;
     z-index: 100;
 }
-
 .logo {
     font-size: 25px;
     color: #fff;
@@ -51,7 +48,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .navbar a {
     display: inline-block;
     font-size: 1.5rem;
@@ -62,11 +58,9 @@ body {
     opacity: 0;
     animation: slideTop .5s ease forwards;
 }
-
 .navbar a:hover {
     color: #0ef;
 }
-
 @keyframes slideTop {
     0% {
         transform: translateY(100px);
@@ -87,7 +81,6 @@ body {
     cursor: pointer;
     display: none;
 }
-
 .Home {
     position: relative;
     width: 100%;
@@ -98,11 +91,9 @@ body {
     align-items: center;
     padding: 70px 10% 0;
 }
-
 .Home-content {
     max-width: 600px;
 }
-
 .Home-content h2 {
     font-size: 32px;
     font-weight: 700;
@@ -110,15 +101,12 @@ body {
     animation: slideBottom 1s ease forwards;
     transition-delay: .7s;
 }
-
 .Home-content span {
     color: #0ef;
 }
-
 .Home img {
     border-radius: 10px;
 }
-
 @keyframes slideBottom {
     0% {
         transform: translateY(-100px);
@@ -138,7 +126,6 @@ body {
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
-
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
@@ -150,14 +137,12 @@ body {
         opacity: 1;
     }
 }
-
 .Home-content p {
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
-
 @keyframes slideLeft {
     0% {
         transform: translateX(100px);
@@ -183,13 +168,11 @@ body {
     color: #0ef;
     margin: 20px 10px 15px 0;
 }
-
 .social-media a:hover {
     color: #001b29;
     background: #0ef;
     box-shadow: 0 0 20px #0ef;
 }
-
 .btn-box {
     display: inline-block;
     margin-top: 20px;
@@ -202,11 +185,9 @@ body {
     font-weight: 600;
     transition: .5s ease;
 }
-
 .btn-box:hover {
     box-shadow: 0 0 1rem #0ef;
 }
-
 .about {
     position: relative;
     width: 100%;
@@ -216,7 +197,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .about-text {
     max-width: 600px;
     border: 2px solid #0122907d;
@@ -227,47 +207,38 @@ body {
     font-size: 20px;
     margin-right: 100px;
 }
-
 .about-text h2 {
     margin-bottom: 25px;
     font-size: 35px;
     font-weight: 700;
 }
-
 .about-text h2 span {
     color: #0ef;
 }
-
 .about-text p {
     font-size: 25px;
 }
-
 .about img {
     margin-left: 9rem;
     border-radius: 30px;
     border: 2px solid #fff;
 }
-
 .Project {
     padding: 55px;
 }
-
 .Project h1 {
     font-size: 50px;
     text-align: center;
 }
-
 .Project h1 span {
     color: #0ef;
 }
-
 .Project-list {
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 20px 20px;
 }
-
 .Project-list div {
     font-size: 20px;
     padding: 40px;
@@ -278,16 +249,13 @@ body {
     background: transparent;
     box-shadow: 1px 2px 35px #01229080;
 }
-
 .Project-list div i {
     font-size: 50px;
 }
-
 .Project-list div h2 {
     font-size: 30px;
     font-weight: 500;
 }
-
 .skill {
     position: relative;
     max-width: 700px;
@@ -299,29 +267,24 @@ body {
     border: 2px solid #fff;
     border-radius: 20px;
 }
-
 .heading {
     font-size: 50px;
     padding: 50px 50px;
     text-align: center;
 }
-
 .heading span {
     color: #0ef;
 }
-
 .skill .skill-box {
     width: 100%;
     margin: 25px 0;
 }
-
 .skill-box .title {
     display: block;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
 }
-
 .skill-box .skill-bar {
     height: 8px;
     width: 100%;
@@ -329,7 +292,6 @@ body {
     margin-top: 6px;
     background: rgba(0, 0, 0, 0.1);
 }
-
 .skill-box .skill-per {
     position: relative;
     display: block;
@@ -340,27 +302,22 @@ body {
     animation: progress 0.9s ease-in-out forwards;
     opacity: 0;
 }
-
 .skill-per.html {
     animation-delay: 0.1s;
     width: 85%;
 }
-
 .skill-per.css {
     animation-delay: 0.1s;
     width: 70%;
 }
-
 .skill-per.javascript {
     animation-delay: 0.1s;
     width: 33%;
 }
-
 .skill-per.bootstrap {
     animation-delay: 0.1s;
     width: 55%;
 }
-
 @keyframes progress {
     0% {
         width: 0;
@@ -383,7 +340,6 @@ body {
     background: rgb(0, 255, 255);
     z-index: 1;
 }
-
 .contact {
     display: flex;
     grid-template-columns: repeat(250px, 1fr);
@@ -392,53 +348,43 @@ body {
     margin-top: 60px;
     padding-left: 30px;
 }
-
 .contact-text h2 {
     line-height: 1;
     font-size: 90px;
 }
-
 .contact-text span {
     color: #0ef;
 }
-
 .contact-text h4 {
     margin: 15px 0;
     font-size: 20px;
     font-weight: 600;
     align-items: center;
 }
-
 .contact-text p {
     line-height: 30px;
     font-size: 20px;
     margin-bottom: 2rem;
 }
-
 .contact-list {
     margin-bottom: 3rem;
 }
-
 .contact-list a {
     color: white;
 }
-
 .contact-list li {
     display: block;
     margin-bottom: 10px;
 }
-
 .contact-list i {
     font-size: 20px;
     color: #0ef;
     font-weight: 600;
     margin-right: 15px;
 }
-
 .contact-form {
     position: relative;
 }
-
 .contact-form input,
 form textarea {
     width: 90%;
@@ -449,12 +395,10 @@ form textarea {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
 .contact-form textarea {
     resize: none;
     height: 250px;
 }
-
 .contact-form .send {
     background: #0ef;
     border-radius: 40px;
@@ -464,7 +408,6 @@ form textarea {
     font-weight: 600;
     margin-bottom: 2rem;
 }
-
 footer {
     width: 100%;
     position: absolute;
@@ -474,17 +417,14 @@ footer {
     padding: 40px 10%;
     font-size: 20px;
 }
-
 .copy a {
     color: #fff;
 }
-
 .link a {
     color: #0ef;
     position: relative;
     margin: 80px;
 }
-
 .line {
     height: 1px;
     background: #fff;
